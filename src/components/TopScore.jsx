@@ -1,7 +1,21 @@
+import bg from "../assets/top-score-bg.png"
+
 export default function TopScore(){
     return (
         <>
-        <h1>TOP SCORE</h1>
+        <div
+        style={{
+          backgroundImage: `url(${bg})`,
+          backgroundSize: "cover",
+          backgroundAttachment: "fixed",
+          backgroundRepeat: "no-repeat",
+          width: "100%",
+          minHeight: "100vh",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      ></div>
         </>
     )
 }
